@@ -1,0 +1,212 @@
+{
+	"id": "af8ffaf8-fd94-407e-95ef-b39ad671c7e9",
+	"name": "Wypożyczalnia książek",
+	"timestamp": "2025-01-02T11:25:01.841Z",
+	"collection_id": "37151135-54fcbdb5-7539-4f09-b924-6084053c15b6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2025-01-02T11:24:59.735Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c7dab030-4c3d-4e6e-a1ed-34e813f6f495",
+			"name": "Get Books List Empty",
+			"url": "http://localhost:8080/books",
+			"time": 462,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				462
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "75bbf4cd-e0ed-4b19-b7dd-92565d25908a",
+			"name": "Post Added book to the list",
+			"url": "http://localhost:8080/books",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bab44152-7177-41cd-b2ce-f2ec894cb561",
+			"name": "Post Added next book to the list",
+			"url": "http://localhost:8080/books",
+			"time": 374,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				374
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "68d01d6e-74b3-4b44-b587-aa446532bc9f",
+			"name": "Get Added Books to the list",
+			"url": "http://localhost:8080/books",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7db32709-4f68-4f81-a507-99cf11585886",
+			"name": "Delete all books from list",
+			"url": "http://localhost:8080/books",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a658456b-ced7-4e9b-b7d7-988b5792dc06",
+			"name": "Get Added new book to the List",
+			"url": "http://localhost:8080/books",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1104,
+	"collection": {
+		"requests": [
+			{
+				"id": "c7dab030-4c3d-4e6e-a1ed-34e813f6f495",
+				"method": "GET"
+			},
+			{
+				"id": "75bbf4cd-e0ed-4b19-b7dd-92565d25908a",
+				"method": "POST"
+			},
+			{
+				"id": "bab44152-7177-41cd-b2ce-f2ec894cb561",
+				"method": "POST"
+			},
+			{
+				"id": "68d01d6e-74b3-4b44-b587-aa446532bc9f",
+				"method": "GET"
+			},
+			{
+				"id": "7db32709-4f68-4f81-a507-99cf11585886",
+				"method": "DELETE"
+			},
+			{
+				"id": "a658456b-ced7-4e9b-b7d7-988b5792dc06",
+				"method": "GET"
+			},
+			{
+				"id": "41429f01-b76b-47b9-b0ab-60af311865d6",
+				"method": "GET"
+			}
+		]
+	}
+}
